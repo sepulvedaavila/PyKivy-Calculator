@@ -125,7 +125,5 @@ class Calculadora(App):
             return screens 
 
 #the actual launcher of the app
-#this checks for the file to be the main file for the project
-#it refrains everything from running as a 'script' or something
 if __name__ == '__main__':
 	Calculadora().run()
