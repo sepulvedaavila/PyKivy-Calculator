@@ -1,14 +1,11 @@
 <Calc>:
 	BoxLayout:
 		orientation: 'vertical'
-		spacing: '0sp'
-		Label:
-			size_hint:(1, 0.02)
 		TextInput:
 			id: text_input
 			size_hint: (1,0.4)		
 			font_size: '60sp'
-			bolt: 'True'
+			bold: 'True'
 			input_filter: 'int'
 			text: 
 		BoxLayout:
@@ -192,5 +189,4 @@
 					text: '/'
 					font_size: '40sp'
 					bold: 'True'
-					on_press: root.operation(0)	
-				
+					on_press: root.operation(0)
