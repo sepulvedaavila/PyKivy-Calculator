@@ -3,10 +3,10 @@
 Version=1.0
 Type=Application
 Terminal=false
-Icon[en_US]=/home/carlos/Documents/testing/Calc/icon.png
+Icon[en_US]= ~/icon.png
 Name[en_US]=Arith-Calculator
-Exec=/home/carlos/Documents/testing/Calc/run.sh
+Exec= ~/run.sh
 Comment[en_US]=Arithmethic Calculator written in python/kivy
 Name=Arith-Calculator
 Comment=Arithmethic Calculator written in python/kivy
-Icon=/home/carlos/Documents/testing/Calc/icon.png
+Icon= ~/icon.png
